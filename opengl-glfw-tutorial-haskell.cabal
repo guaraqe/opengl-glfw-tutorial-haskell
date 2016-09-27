@@ -2,7 +2,6 @@ name:                opengl-glfw-tutorial-haskell
 version:             0.1.0
 synopsis:            Synopsis
 license:             BSD3
-license-file:        LICENSE
 author:              guaraqe
 maintainer:          guaraqe@openmailbox.org
 build-type:          Simple
