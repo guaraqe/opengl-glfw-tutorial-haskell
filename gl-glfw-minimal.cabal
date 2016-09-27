@@ -1,0 +1,29 @@
+name:                opengl-glfw-tutorial-haskell
+version:             0.1.0
+synopsis:            Synopsis
+license:             BSD3
+license-file:        LICENSE
+author:              guaraqe
+maintainer:          guaraqe@openmailbox.org
+build-type:          Simple
+extra-source-files:  ChangeLog.md
+cabal-version:       >=1.10
+
+executable tutorial01
+  main-is:             Tutorial01.hs
+  build-depends:       base >=4.9 && <4.10
+                     , gl
+                     , bindings-GLFW
+  hs-source-dirs:      app
+  ghc-options:        -Wall
+  default-language:    Haskell2010
+
+executable tutorial02
+  main-is:             Tutorial02.hs
+  build-depends:       base >=4.9 && <4.10
+                     , gl
+                     , bindings-GLFW
+                     , vector
+  hs-source-dirs:      app, src
+  ghc-options:        -Wall
+  default-language:    Haskell2010
